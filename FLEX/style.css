@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.container {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    text-align: center;
+    color: #820024;
+    border-bottom: 1px solid gray;
+}
+.content {
+    display: flex;
+}
+nav, aside {
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+nav {
+    border-right: 1px solid gray;
+}
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-image {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.main-content {
+    text-align: justify;
+}
+aside {
+    border-left: 1px solid gray;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+footer {
+    border-top: 1px solid gray;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
